@@ -1,0 +1,12 @@
+.App{
+    width: 100%;
+}
+.card{
+    background: #15202B  no-repeat no-repeat center ;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 10% auto;
+    padding: 3%;
+}

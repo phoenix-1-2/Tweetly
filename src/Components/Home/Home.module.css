@@ -1,0 +1,35 @@
+.Home{
+    background: #15202B  no-repeat no-repeat center ;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    
+}
+.Hr{
+    width: 70%;
+    border: 1px solid ;
+    border-color:rgb(56, 68, 77);
+}
+.Hr2{
+    width: 70%;
+    border: 2px solid ;
+    border-color:rgb(56, 68, 77);
+}
+.Hr3{
+    width: 100%;
+    border: 2px solid ;
+    border-color:rgb(56, 68, 77);
+}
+.tweets{
+    width: 50%;
+    margin: 0 auto;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color:rgb(56, 68, 77);
+}
+
+@media(max-width : 720px){
+    .tweets{
+        width: 90%;
+    }
+}

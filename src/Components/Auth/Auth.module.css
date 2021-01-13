@@ -1,0 +1,50 @@
+.Hr{
+    width: 70%;
+    border: 1px solid ;
+    border-color:rgb(56, 68, 77);
+}
+.body{
+    background-color: #15202B ;
+}
+.LogIn{
+    background: #15202B  no-repeat no-repeat center ;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color:rgb(56, 68, 77);
+    width: 40%;
+    border-radius: 25px;
+    margin: 12% auto;
+}
+.Hr2{
+    width: 70%;
+    border: 2px solid ;
+    border-color:rgb(56, 68, 77);
+}
+.Hr3{
+    width: 100%;
+    border: 2px solid ;
+    border-color:rgb(56, 68, 77);
+}
+
+@media (max-width:750px){
+    .LogIn{
+        background: #15202B  no-repeat no-repeat center ;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-color:rgb(56, 68, 77);
+        width: 90%;
+        border-radius: 25px;
+    }
+}
+.textBox{
+    width: 60%;
+ }
+ .textBox:focus{
+     outline:none;
+ }

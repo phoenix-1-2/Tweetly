@@ -1,0 +1,54 @@
+.Profile{
+    background: #15202B  no-repeat no-repeat center ;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color:rgb(56, 68, 77);
+    
+}
+.ProfileDetails{
+    background: #15202B  no-repeat no-repeat center ;
+    background-size: cover;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.Hr{
+    width: 70%;
+    border: 1px solid ;
+    border-color:rgb(56, 68, 77);
+}
+.Hr2{
+    width: 70%;
+    border: 2px solid ;
+    border-color:rgb(56, 68, 77);
+}
+.Hr3{
+    width: 100%;
+    border: 2px solid ;
+    border-color:rgb(56, 68, 77);
+}
+.profileTweets{
+    width: 70%;
+    margin: 0 auto;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color:rgb(56, 68, 77);
+}
+
+@media(max-width : 720px){
+    .ProfileDetails{
+        background: #15202B  no-repeat no-repeat center ;
+        background-size: cover;
+        color: white;
+        width: 100%;
+        
+    }
+    .profileTweets{
+        width: 100%;
+        margin: 0;
+    }
+}
